@@ -12,9 +12,9 @@ import { fullPageLoadingIndicator } from 'node_modules/@magento/venia-ui/lib/com
 import { useProductFullDetail } from '@magento/peregrine/lib/talons/ProductFullDetail/useProductFullDetail';
 import { Form } from 'informed';
 import Button from 'node_modules/@magento/venia-ui/lib/components/Button';
-import defaultClass from '@simicart/sample/src/override/fbtProduct/popup.css';
+import defaultClass from '@simicart/fbt/src/override/fbtProduct/popup.css';
 import Price from '@magento/venia-ui/lib/components/Price';
-import { QuantityFields } from '@simicart/sample/src/components/productList/quantity.js';
+import { QuantityFields } from '@simicart/fbt/src/components/productList/quantity.js';
 import { FormattedMessage, useIntl } from 'react-intl';
 
 const Options = React.lazy(() =>

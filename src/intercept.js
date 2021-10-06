@@ -25,7 +25,7 @@ module.exports = targets => {
             routesArray.push({
                 name: "SimiCart Page",
                 pattern: "/simicart",
-                path: "@simicart/sample/src/components/page1/index.js"
+                path: "@simicart/fbt/src/components/page1/index.js"
             }); 
             return routesArray;
         }

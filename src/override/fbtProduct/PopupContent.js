@@ -6,12 +6,12 @@ import React, {
     Fragment
 } from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
-import { QuantityFields } from '@simicart/sample/src/components/productList/quantity.js';
+import { QuantityFields } from '@simicart/fbt/src/components/productList/quantity.js';
 
 import { useQuery } from '@apollo/client';
 import mergeOperations from 'node_modules/@magento/peregrine/lib/util/shallowMerge.js';
 import DEFAULT_OPERATIONS from 'node_modules/@magento/peregrine/lib/talons/RootComponents/Product/product.gql.js';
-import defaultClass from '@simicart/sample/src/override/fbtProduct/popup.css';
+import defaultClass from '@simicart/fbt/src/override/fbtProduct/popup.css';
 
 import Price from '@magento/venia-ui/lib/components/Price';
 import { Form } from 'informed';

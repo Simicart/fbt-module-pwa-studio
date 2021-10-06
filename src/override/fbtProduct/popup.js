@@ -6,11 +6,11 @@ import React, {
     Fragment
 } from 'react';
 import { gql } from '@apollo/client';
-import defaultClass from '@simicart/sample/src/override/fbtProduct/popup.css';
+import defaultClass from '@simicart/fbt/src/override/fbtProduct/popup.css';
 import { useMutation, useQuery } from '@apollo/client';
 import mergeOperations from 'node_modules/@magento/peregrine/lib/util/shallowMerge.js';
 import DEFAULT_OPERATIONS from 'node_modules/@magento/peregrine/lib/talons/RootComponents/Product/product.gql.js';
-import PopupContent from '@simicart/sample/src/override/fbtProduct/PopupContent.js';
+import PopupContent from '@simicart/fbt/src/override/fbtProduct/PopupContent.js';
 import { Form } from 'informed';
 import Button from 'node_modules/@magento/venia-ui/lib/components/Button';
 import { useCartContext } from '@magento/peregrine/lib/context/cart';

@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
-import defaultClass from '@simicart/sample/src/override/fbtProduct/fptProducts.css';
+import defaultClass from '@simicart/fbt/src/override/fbtProduct/fptProducts.css';
 import { Link } from 'react-router-dom';
 import Popup from './popup';
-import '@simicart/sample/src/override/fbtProduct/fptProducts.css';
+import '@simicart/fbt/src/override/fbtProduct/fptProducts.css';
 import { FaTimes, FaPlusCircle } from 'react-icons/fa';
 
 const FbtProducts = props => {
